@@ -5,6 +5,7 @@
     <title>Employee Form</title>
 </head>
 <body>
+    <%--@elvariable id="employee" type=""--%>
     <form:form modelAttribute="employee" method="post">
         <div>
             <form:label path="name">Name: </form:label>
